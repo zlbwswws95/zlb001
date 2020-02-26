@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 from config import RUN_VER
 if RUN_VER == 'open':
     from blueapps.patch.settings_open_saas import *  # noqa
@@ -30,7 +30,7 @@ DATABASES = {
         'NAME': APP_CODE,
         'USER': 'root',
         'PASSWORD': '123456',
-        'HOST': 'l0.0.2.15',
+        'HOST': '10.0.2.8',
         'PORT': '3306',
     },
 }
